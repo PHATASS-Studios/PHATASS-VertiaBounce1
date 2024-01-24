@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a1ad0e92bc58142997ad010a774f32, type: 3}
+  m_Name: TestSettingsActionUseInteractorDefault
+  m_EditorClassIdentifier: 
+  backingField:
+    _priority: 0
+    _callbacks:
+      _priority: 0
+      _callbackList: []
+    _actionRadiusSetting: {fileID: 11400000, guid: 73118fafe069ac8459fe0abe55014cee, type: 2}

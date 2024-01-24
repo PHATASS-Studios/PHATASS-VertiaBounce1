@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cbca6d0692600840905a30eddf55117, type: 3}
+  m_Name: TestSettingsActionGrabSurfaceDefault
+  m_EditorClassIdentifier: 
+  backingField:
+    _priority: 0
+    _callbacks:
+      _priority: 0
+      _callbackList: []
+    _actionRadiusSetting: {fileID: 11400000, guid: 228c2b78278b61f4d9cfaf3ae6116827, type: 2}
+    _grabJointSetting: {fileID: 11400000, guid: 9bc41da2c83b8be47a88a30b49b79980, type: 2}
