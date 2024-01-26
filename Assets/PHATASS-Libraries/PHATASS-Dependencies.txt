@@ -1,0 +1,10 @@
+List of repository sources for PHATASS Library component dependencies:
+
+	> PHATASS-Unity-Core
+		https://github.com/PHATASS-Studios/PHATASS-Unity-Core.git
+
+	> PHATASS-Unity-Utils
+		https://github.com/PHATASS-Studios/PHATASS-Unity-Utils
+
+	[TEMPORARY]	> PHATASS-Unity-Live2DTools
+		https://github.com/PHATASS-Studios/PHATASS-Unity-Live2DTools.git
