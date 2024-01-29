@@ -2,7 +2,7 @@ using UnityEngine;
 
 using static PHATASS.Utils.Extensions.FloatExtensions;
 using static PHATASS.Utils.Extensions.DoubleExtensions;
-using static PHATASS.Utils.Extensions.CubismParameterExtensions;
+using static PHATASS.L2DTools.Extensions.CubismParameterExtensions;
 
 namespace PHATASS.EmotionSystem
 {

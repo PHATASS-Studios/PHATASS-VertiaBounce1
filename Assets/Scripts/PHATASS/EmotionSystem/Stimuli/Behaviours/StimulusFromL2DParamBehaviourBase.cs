@@ -2,7 +2,7 @@ using UnityEngine;
 
 using CubismParameter = Live2D.Cubism.Core.CubismParameter;
 
-using static PHATASS.Utils.Extensions.CubismParameterExtensions;
+using static PHATASS.L2DTools.Extensions.CubismParameterExtensions;
 
 namespace PHATASS.EmotionSystem
 {
