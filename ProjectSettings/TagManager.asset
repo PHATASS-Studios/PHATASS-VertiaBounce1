@@ -11,6 +11,11 @@ TagManager:
   - 
   - Water
   - UI
+  - NecessaryUI
+  - 
+  - Transition
+  - 
+  - RigElement
   - 
   - 
   - 
@@ -20,13 +25,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Interactable
+  - Interactor
   - 
   - 
   - 
@@ -38,6 +38,39 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Backgrounds
+    uniqueID: 3610946357
+    locked: 0
+  - name: BackgroundParticles
+    uniqueID: 415626453
+    locked: 0
+  - name: BackgroundUI
+    uniqueID: 1608313993
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BodyParticles
+    uniqueID: 1021713301
+    locked: 0
+  - name: ForegroundParticles
+    uniqueID: 1716048399
+    locked: 0
+  - name: LetterboxCover
+    uniqueID: 160943003
+    locked: 0
+  - name: ForegroundUI
+    uniqueID: 2601344135
+    locked: 0
+  - name: DialogPortraits
+    uniqueID: 194242257
+    locked: 0
+  - name: OverlayUI
+    uniqueID: 1956373587
+    locked: 0
+  - name: TransitionOverlay
+    uniqueID: 2332566163
+    locked: 0
+  - name: Tools
+    uniqueID: 2004080471
     locked: 0
