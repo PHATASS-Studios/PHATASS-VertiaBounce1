@@ -1,0 +1,33 @@
+setup:
+  transformations:
+  - name: Generate isometric vertices
+    enabled: true
+    parameters:
+      vertex_distance: 40.0
+      origin_x: 0.0
+      origin_y: 0.0
+      casting_angle: 30.0
+  - name: Delaunay triangulation
+    enabled: true
+    parameters: {}
+  - name: Remove empty triangles
+    enabled: true
+    parameters:
+      alpha_cutoff: 0
+  - name: Vertices to bone rig
+    enabled: true
+    parameters:
+      bone_name: bone
+  rigs:
+  - rig_file_path: D:\Projects\PHATASS\PHATASS-VertiaBounce1\Assets\Scenes\VertiaBounce1\Sprites\Vertia
+      Parts\10. Boob R.png.meta
+    rig_enabled: true
+  - rig_file_path: D:\Projects\PHATASS\PHATASS-VertiaBounce1\Assets\Scenes\VertiaBounce1\Sprites\Vertia
+      Parts\11. Boob L.png.meta
+    rig_enabled: true
+  - rig_file_path: D:\Projects\PHATASS\PHATASS-VertiaBounce1\Assets\Scenes\VertiaBounce1\Sprites\Vertia
+      Parts\12. Bra L.png.meta
+    rig_enabled: true
+  - rig_file_path: D:\Projects\PHATASS\PHATASS-VertiaBounce1\Assets\Scenes\VertiaBounce1\Sprites\Vertia
+      Parts\13. Bra R.png.meta
+    rig_enabled: true
