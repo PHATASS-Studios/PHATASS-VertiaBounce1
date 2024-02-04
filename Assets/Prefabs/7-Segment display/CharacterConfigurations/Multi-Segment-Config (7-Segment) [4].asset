@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Multi-Segment-Config (7-Segment) [4]
   m_EditorClassIdentifier: 
   index: 0
-  segmentState: 00000000000000
+  segmentState: 00010101000100
