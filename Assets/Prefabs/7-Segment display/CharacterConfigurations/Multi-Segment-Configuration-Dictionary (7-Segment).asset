@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a1735985d3b31d4eb8349e060db67c2, type: 3}
+  m_Name: Multi-Segment-Configuration-Dictionary (7-Segment)
+  m_EditorClassIdentifier: 
+  characterDictionary:
+  - {fileID: 11400000, guid: 146a7eaa87523c443be1b2c8eb44a3dd, type: 2}
+  - {fileID: 11400000, guid: 7e7e5d5fe66b4e641b63dcef589f64ad, type: 2}
+  - {fileID: 11400000, guid: 017f7efc5b6a8434d87836916616dc47, type: 2}
+  - {fileID: 11400000, guid: cc87a4bfed8a4eb4a81c8156d0a32aef, type: 2}
+  - {fileID: 11400000, guid: 6719fcd6533653940b66816f384bad1e, type: 2}
+  - {fileID: 11400000, guid: 6255ac6116bf4e74e908e6dd24c5d9db, type: 2}
+  - {fileID: 11400000, guid: 337aaa04789543948afbf990ac9733d4, type: 2}
+  - {fileID: 11400000, guid: 9a709a343ef3861418d414f0c2ceb350, type: 2}
+  - {fileID: 11400000, guid: 8ba3ec600426aee4fb5055862641cbc8, type: 2}
+  - {fileID: 11400000, guid: 6cf0daa24e36aa2498c658633ac6b3bc, type: 2}
