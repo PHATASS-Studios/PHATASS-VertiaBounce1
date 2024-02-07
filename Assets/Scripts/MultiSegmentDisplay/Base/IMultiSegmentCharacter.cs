@@ -6,8 +6,7 @@ namespace PHATASS.Miscellaneous.MultiSegmentDisplay
 //	Allows altering the displayed string and the color of the segments
 //	
 	public interface IMultiSegmentCharacter :
-		IOnOffColorReceiver		//IOnOffColorReceiver allows handling
+		IMultiSegmentDisplay
 	{
-		IMultiSegmentCharacterConfiguration configuration { get; set; }
 	}
 }

@@ -13,6 +13,10 @@ namespace PHATASS.Miscellaneous.MultiSegmentDisplay
 		IMultiSegmentCharacter		
 	{
 	//serialized fields
+		[Tooltip("Scriptable object containing the character configuration mappings for each possible char/substring.")]
+		[SerializeField]
+		private SOMultiSegmentConfigurationDictionary configurationDictionary;
+
 		[Tooltip("List of renderers handling each segment, by strict index order top-to-bottom left-to-right")]
 		[SerializeField]
 		private SpriteRenderer[] segmentRendererList;
@@ -25,26 +29,25 @@ namespace PHATASS.Miscellaneous.MultiSegmentDisplay
 		[SerializeField]
 		private Color offColor = Color.black;
 
-/*	//Serializable implementation of configuration discarded - can't or musn't store configuration file as UnityEngine.Object
-		[Tooltip("IMultiSegmentCharacterConfiguration representing  each sub-element's on/off state")]
+		[Tooltip("If true, character will be completely re-drawn even if requested character is the same as current character.")]
 		[SerializeField]
-		[SerializedTypeRestriction(typeof(IMultiSegmentCharacterConfiguration))]
-		private UnityEngine.Object? _configuration = null;
-		private IMultiSegmentCharacterConfiguration configuration
-		{ get {
-			if (this._configuration == null) { return null; }
-			else { return this._configuration as IMultiSegmentCharacterConfiguration; }
-		}}
-*/
+		private bool forceRefreshEverytime = false;
 	//ENDOF serialized fields
 
 	//IMultiSegmentCharacter
-		IMultiSegmentCharacterConfiguration IMultiSegmentCharacter.configuration
+		string PHATASS.Utils.Types.Values.IValue<string>.value
 		{
-			get { return this.configuration; }
+			get { return this.currentString; }
+		}
+
+		string PHATASS.Utils.Types.Values.IValueMutable<string>.value
+		{
+			get { return this.currentString; }
 			set
 			{
-				this.configuration = value;
+				Debug.Log("Received string: " + value);
+				this.currentString = value;
+				this.Refresh();
 			}
 		}
 
@@ -83,6 +86,19 @@ namespace PHATASS.Miscellaneous.MultiSegmentDisplay
 	//ENDOF MonoBehaviour
 
 	//private members
+		private string currentString
+		{
+			get { return this.configuration?.index; }
+			set
+			{
+				//abort writing new substring IF it is the same as previous AND force refresh is disabled
+				if (!this.forceRefreshEverytime && value == this.currentString)
+				{ return; }
+
+				this.configuration = ((IMultiSegmentConfigurationDictionary) this.configurationDictionary).GetCharacterConfiguration(value);
+			}
+		}
+
 		private IMultiSegmentCharacterConfiguration _configuration = null;
 		private IMultiSegmentCharacterConfiguration configuration
 		{
