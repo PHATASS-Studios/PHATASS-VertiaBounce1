@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be19f92187b88224086eeead54063fae, type: 3}
   m_Name: Multi-Segment-Config (7-Segment) [1]
   m_EditorClassIdentifier: 
-  index: 0
+  index: 1
   segmentState: 00000100000100

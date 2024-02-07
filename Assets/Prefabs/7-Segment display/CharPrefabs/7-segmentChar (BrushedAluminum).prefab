@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 9150804205650604649}
   - component: {fileID: 6628009242803867280}
   m_Layer: 0
-  m_Name: 7-segmentChar
+  m_Name: 7-segmentChar (BrushedAluminum)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,6 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e780d04817a3c7d47afe6252f92acb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  configurationDictionary: {fileID: 11400000, guid: 3c9e6523eda9bee46815c0e814b274b1, type: 2}
   segmentRendererList:
   - {fileID: 7303583141273011126}
   - {fileID: 7661391257637072739}
@@ -450,7 +451,7 @@ MonoBehaviour:
   - {fileID: 7422339343128299134}
   onColor: {r: 0.9411765, g: 0, b: 0, a: 1}
   offColor: {r: 0.15686275, g: 0, b: 0, a: 1}
-  _configuration: {fileID: 0}
+  forceRefreshEverytime: 0
 --- !u!1 &5585545689208888202
 GameObject:
   m_ObjectHideFlags: 0
