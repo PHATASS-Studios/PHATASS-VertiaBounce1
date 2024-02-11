@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 35568b7d17ca4504d921d069800de22b
+guid: 61380a7b724676e40b8c4e60d91eb6d4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,13 +43,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 610, y: 580, z: 1191, w: 472}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -134,18 +134,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: StreamOverlay_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 839
+        width: 571
+        height: 361
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5162bb74b87b1e1459c1113f00350700
+      internalID: -972111205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_TopRight
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 839
+        width: 574
+        height: 361
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6b920d1c2ed394c9cda7706d66d5b3
+      internalID: 38322622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_BotLeft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 574
+        height: 361
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f02ab3b9142a64e894332ff70ccb55
+      internalID: -2087391468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_BotRight
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 0
+        width: 950
+        height: 361
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd31dbd8106b39942a92458438a54af8
+      internalID: -1060430633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StreamOverlay_BotLeft: -2087391468
+      StreamOverlay_BotRight: -1060430633
+      StreamOverlay_TopLeft: -972111205
+      StreamOverlay_TopRight: 38322622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
