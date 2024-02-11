@@ -1,0 +1,2 @@
+Gaussian blur shaders by remibodin on github
+	https://github.com/remibodin/Unity3D-Blur - remibodin
