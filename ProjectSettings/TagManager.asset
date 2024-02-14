@@ -11,17 +11,17 @@ TagManager:
   - 
   - Water
   - UI
-  - NecessaryUI
-  - 
   - Transition
   - 
-  - RigElement
   - 
   - 
+  - Tools
+  - GrabbableElement
+  - GrabbableSurface
   - 
-  - 
-  - 
-  - 
+  - VsGrabbbableCollider
+  - VsSurfaceCollider
+  - VsElementCollider
   - 
   - 
   - 
@@ -38,39 +38,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Backgrounds
-    uniqueID: 3610946357
-    locked: 0
-  - name: BackgroundParticles
-    uniqueID: 415626453
-    locked: 0
-  - name: BackgroundUI
-    uniqueID: 1608313993
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: BodyParticles
-    uniqueID: 1021713301
+  - name: Background
+    uniqueID: 2223035337
     locked: 0
-  - name: ForegroundParticles
-    uniqueID: 1716048399
+  - name: BackParticles
+    uniqueID: 560085179
     locked: 0
-  - name: LetterboxCover
-    uniqueID: 160943003
+  - name: BackInterface
+    uniqueID: 2581800839
     locked: 0
-  - name: ForegroundUI
-    uniqueID: 2601344135
+  - name: DatAss
+    uniqueID: 1202763297
     locked: 0
-  - name: DialogPortraits
-    uniqueID: 194242257
+  - name: FrontParticles
+    uniqueID: 412817223
     locked: 0
-  - name: OverlayUI
-    uniqueID: 1956373587
-    locked: 0
-  - name: TransitionOverlay
-    uniqueID: 2332566163
+  - name: Interface
+    uniqueID: 2249763077
     locked: 0
   - name: Tools
-    uniqueID: 2004080471
+    uniqueID: 3879649877
+    locked: 0
+  - name: Transition
+    uniqueID: 576037975
     locked: 0
