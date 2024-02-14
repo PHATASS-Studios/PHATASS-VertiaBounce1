@@ -15,7 +15,7 @@ MonoBehaviour:
   _backingField:
     layerMask:
       serializedVersion: 2
-      m_Bits: 1024
+      m_Bits: 6144
     collisionRadius: 0.25
     screenScaled: 1
     maximumCollisions: -1
