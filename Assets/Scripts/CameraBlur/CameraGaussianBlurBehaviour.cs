@@ -3,7 +3,9 @@ using UnityEngine;
 namespace PHATASS.CameraSystem.CameraFX
 {
 	[ExecuteInEditMode]
-	public class CameraGaussianBlurBehaviour : MonoBehaviour
+	public class CameraGaussianBlurBehaviour :
+		MonoBehaviour,
+		PHATASS.Utils.Types.Values.IFloatValueMutable
 	{
 	//serialized
 		[SerializeField]
@@ -12,6 +14,15 @@ namespace PHATASS.CameraSystem.CameraFX
 		[SerializeField]
 		private GaussianQuality quality;
 	//ENDOF serialized
+
+	//IFloatValueMutable
+		float PHATASS.Utils.Types.Values.IValue<float>.value { get { return this.sigma; }}
+		float PHATASS.Utils.Types.Values.IValueMutable<float>.value
+		{
+			get { return this.sigma; }
+			set { this.sigma = value; }
+		}
+	//ENDOF IFloatValueMutable
 
 	//MonoBehaviour lifecycle
 		private void OnRenderImage (RenderTexture source, RenderTexture destination)
@@ -23,7 +34,7 @@ namespace PHATASS.CameraSystem.CameraFX
 				return;
 			}
 
-			this.material.SetFloat ("_Sigma", this.sigma);
+			this.material.SetFloat("_Sigma", this.sigma);
 			Graphics.Blit(source, destination, this.material);
 		}
 
