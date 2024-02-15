@@ -48,6 +48,7 @@ namespace PHATASS.CameraSystem.CameraFX
 
 		private void Init()
 		{
+			//Special thanks to remibodin for publishing these shaders
 			this.shader = Shader.Find("blurs-remibodin/naive_gaussian_blur");
 		
 			if (this.shader.isSupported == false)
