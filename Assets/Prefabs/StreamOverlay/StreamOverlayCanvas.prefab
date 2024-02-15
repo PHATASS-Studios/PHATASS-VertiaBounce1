@@ -692,10 +692,10 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: 20
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 8388608
+    m_Bits: 8389664
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -720,7 +720,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   masterCamera: {fileID: 0}
-  slaveCamera: {fileID: 6069806258841374946}
 --- !u!1 &6167551215776995106
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,11 +967,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610531230389287405, guid: fec79764fa8574c489f69c37576fa8d4, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -511
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1610531230389287405, guid: fec79764fa8574c489f69c37576fa8d4, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -282
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1610531230389287405, guid: fec79764fa8574c489f69c37576fa8d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1004,11 +1003,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610531230389287405, guid: fec79764fa8574c489f69c37576fa8d4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -305.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1610531230389287405, guid: fec79764fa8574c489f69c37576fa8d4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -191
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1610531230389287405, guid: fec79764fa8574c489f69c37576fa8d4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
