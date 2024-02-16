@@ -62,6 +62,9 @@ TagManager:
   - name: Tools
     uniqueID: 3879649877
     locked: 0
+  - name: Overlay
+    uniqueID: 1541903165
+    locked: 0
   - name: Transition
     uniqueID: 576037975
     locked: 0
