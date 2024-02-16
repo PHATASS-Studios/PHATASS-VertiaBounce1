@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &156362766 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2905035116367169083, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
+  m_PrefabInstance: {fileID: 7690527619790458999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &289160299 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2281834375218070970, guid: 4605fe83de08cee47aadd70d491cb141, type: 3}
@@ -530,8 +535,12 @@ MonoBehaviour:
   focusLossMultiplier: 2
   focusLossLimit: 20
   _blurValueReceiver: {fileID: 1448540803}
-  autoFocusDelay: 0.1
+  autoFocusDelay: 0
   autoFocusSpeed: 20
+  animators:
+  - {fileID: 156362766}
+  isFocusingAnimatorBool:
+    variableName: IsFocusing
 --- !u!114 &1894529729 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3051236629200196169, guid: 92064b05ea8480f40bd9653463b4aa05, type: 3}
@@ -690,14 +699,6 @@ PrefabInstance:
       propertyPath: _rectOrigin
       value: 
       objectReference: {fileID: 1448540797}
-    - target: {fileID: 8688579892962455240, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
-      propertyPath: _speedModifierRange.maximum
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8688579892962455240, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
-      propertyPath: _speedModifierRange.minimum
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
