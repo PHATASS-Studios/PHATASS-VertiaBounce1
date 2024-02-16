@@ -219,6 +219,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_Battery_3bars
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 652
+        width: 133
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f235bb5d5b46874dbd0cc5304712b88
+      internalID: -643071502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_Battery_2bars
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 652
+        width: 133
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c05072764aa2141a997bbcc5943026
+      internalID: -595001977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_HDsticker
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 498
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f088f01253db842bd6280cd20f10c4
+      internalID: -1193481533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_AFsticker
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 500
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c635bb6a4f54a4f80dba98c63854bb
+      internalID: -1441558844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_RedDot
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3222c5054cd61e4d9a0d89c865238b4
+      internalID: -1096492011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreamOverlay_Battery_1bars
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 656
+        width: 133
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3bba882c8b18643abed8fc178354e3
+      internalID: 376430790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -230,8 +356,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      StreamOverlay_AFsticker: -1441558844
+      StreamOverlay_Battery_1bars: 376430790
+      StreamOverlay_Battery_2bars: -595001977
+      StreamOverlay_Battery_3bars: -643071502
       StreamOverlay_BotLeft: -2087391468
       StreamOverlay_BotRight: -1060430633
+      StreamOverlay_HDsticker: -1193481533
+      StreamOverlay_RedDot: -1096492011
       StreamOverlay_TopLeft: -972111205
       StreamOverlay_TopRight: 38322622
   mipmapLimitGroupName: 
