@@ -535,7 +535,7 @@ MonoBehaviour:
   focusLossMultiplier: 2
   focusLossLimit: 20
   _blurValueReceiver: {fileID: 1448540803}
-  autoFocusDelay: 0
+  autoFocusDelay: 0.1
   autoFocusSpeed: 20
   animators:
   - {fileID: 156362766}
