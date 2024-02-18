@@ -695,6 +695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreamOverlayCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7400822247870976774, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
+      propertyPath: destinationURL
+      value: https://twitter.com/EVOV1atDA/
+      objectReference: {fileID: 0}
     - target: {fileID: 8253561769718015265, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
       propertyPath: _rectOrigin
       value: 
@@ -702,7 +706,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2365129827999199867, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: cc589c3af42b29140b6bdc90617fe5c9, type: 3}
 --- !u!4 &7975070983802971808
 Transform:
