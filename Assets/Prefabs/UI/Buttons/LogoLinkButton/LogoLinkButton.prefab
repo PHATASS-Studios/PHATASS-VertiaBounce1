@@ -138,7 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2713009019497911261}
   - component: {fileID: 8371442614127973043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LogoSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,8 +198,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1713166457
-  m_SortingLayer: 2
+  m_SortingLayerID: -1693623161
+  m_SortingLayer: 4
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: c8c3706afa3fbd642bed294054ef2198, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -256,10 +256,10 @@ GameObject:
   - component: {fileID: 7392284756940553051}
   - component: {fileID: 8570070515367819183}
   - component: {fileID: 7392284756940553052}
+  - component: {fileID: 931887904769673687}
   - component: {fileID: 7392284756940553063}
   - component: {fileID: 904989905659139029}
   - component: {fileID: 2587786612609670651}
-  - component: {fileID: 931887904769673687}
   m_Layer: 20
   m_Name: LogoLinkButton
   m_TagString: Untagged
@@ -304,6 +304,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7392284756940553052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,8 +346,32 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 8570070515367819183}
-  _priority: 0
+  animators:
+  - {fileID: 8570070515367819183}
+  hoveredAnimatorBool:
+    variableName: Hovered
+  hoveredCallbacks:
+    m_PersistentCalls:
+      m_Calls: []
+  _priority: -20
+  pressedAnimatorBool:
+    variableName: Pressed
+  pressStartedCallbacks:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &931887904769673687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7392284756940553054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d94138ea78dc5488d719c5fb251e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationURL: http://phatass-studios.com/
 --- !u!54 &7392284756940553063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -354,10 +379,21 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7392284756940553054}
-  serializedVersion: 2
+  serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
@@ -375,6 +411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2791bb735a3c3544fb7965a2030a4380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultPropagationMode: 0
   playableList:
   - {fileID: 6188283814550469155}
   - {fileID: 751624721965659014}
@@ -386,25 +423,21 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7392284756940553054}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
+  serializedVersion: 2
   m_Radius: 0.015
   m_Height: 0.08
   m_Direction: 0
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &931887904769673687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7392284756940553054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42d94138ea78dc5488d719c5fb251e4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationURL: http://phatass-studios.com/
 --- !u!1 &7392284757304354023
 GameObject:
   m_ObjectHideFlags: 0
