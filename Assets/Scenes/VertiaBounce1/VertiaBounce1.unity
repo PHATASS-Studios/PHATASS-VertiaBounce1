@@ -352,6 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 183358627}
   - component: {fileID: 183358628}
+  - component: {fileID: 183358629}
   m_Layer: 0
   m_Name: 6. Arm L
   m_TagString: Untagged
@@ -426,6 +427,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &183358629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183358626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 365834149}
+  m_BoneTransforms:
+  - {fileID: 365834149}
+  - {fileID: 1162910035}
+  m_Bounds:
+    m_Center: {x: -0.18849383, y: -0.19798946, z: 0}
+    m_Extent: {x: 0.07322694, y: 0.2628888, z: 0}
+  m_AlwaysUpdate: 1
+  m_AutoRebind: 0
 --- !u!1 &289160299 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2281834375218070970, guid: 4605fe83de08cee47aadd70d491cb141, type: 3}
@@ -920,6 +942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464127152}
   - component: {fileID: 464127153}
+  - component: {fileID: 464127154}
   m_Layer: 0
   m_Name: 7. Arm R
   m_TagString: Untagged
@@ -994,6 +1017,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &464127154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464127151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 365834149}
+  m_BoneTransforms:
+  - {fileID: 365834149}
+  - {fileID: 450335896}
+  m_Bounds:
+    m_Center: {x: 0.20269749, y: -0.19776112, z: 0}
+    m_Extent: {x: 0.07339898, y: 0.26263502, z: 0}
+  m_AlwaysUpdate: 1
+  m_AutoRebind: 0
 --- !u!1 &717529082
 GameObject:
   m_ObjectHideFlags: 0
