@@ -4,4 +4,8 @@ List of repository sources for PHATASS Library component dependencies:
 		https://github.com/PHATASS-Studios/PHATASS-Unity-Core.git
 
 	> PHATASS-Unity-Utils
-		https://github.com/PHATASS-Studios/PHATASS-Unity-Utils
+		https://github.com/PHATASS-Studios/PHATASS-Unity-Utils.git
+
+	> PHATASS-Unity-SpriteRigging
+		https://github.com/PHATASS-Studios/PHATASS-Unity-SpriteRigging.git
+
