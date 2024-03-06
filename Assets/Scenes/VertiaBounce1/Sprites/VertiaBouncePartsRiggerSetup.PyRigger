@@ -3,7 +3,7 @@ setup:
   - name: Generate isometric vertices
     enabled: true
     parameters:
-      vertex_distance: 40.0
+      vertex_distance: 80.0
       origin_x: 0.0
       origin_y: 0.0
       casting_angle: 30.0
